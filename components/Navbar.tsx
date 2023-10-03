@@ -5,7 +5,7 @@ import logo from "../public/logo.png";
 import CustomButton from "./CustomButton";
 
 import { useRouter } from "next/navigation";
-import { updatePageLink, updateSearchParams } from "@/utils";
+import { updatePageLink } from "@/utils";
 
 const Navbar = () => {
   const router = useRouter();
